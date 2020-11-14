@@ -12,7 +12,7 @@
 
 - 参数 -g
 
-	sqlmap可以测试注入google 的搜索结果中的get参数。
+	nmap可以测试注入google 的搜索结果中的get参数。
 
 - 参数 --cooike， --load-cookies
 
@@ -29,6 +29,10 @@
 - 脚本 --script=brute ip
 
 提供暴力破解的方式 可以对数据库 smb snmp进行简单的密码暴力猜解。
+
+2020/11/14
+
+通过 nmap -p3306 --script=vuln ip 查询出 heardbleed漏洞 然后使用msf进行监控。
 
 其他的方式可以通过
 
